@@ -28,8 +28,8 @@ AppModule = __decorate([
             hero_detail_component_1.HeroDetailComponent,
             heroes_component_1.HeroesComponent,
         ],
+        providers: [hero_service_1.HeroService],
         bootstrap: [app_component_1.AppComponent],
-        providers: [hero_service_1.HeroService]
     })
 ], AppModule);
 exports.AppModule = AppModule;
